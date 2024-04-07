@@ -3,7 +3,7 @@
 #### La GCS es el proceso de identificar y definir los elementos en el sistema, controlando el cambio de estos elementos a los largo de su ciclo de vida, registrando y reportando el estado de los elementos y las solicitudes de cambio, y verificando que los elementos estén completos y que sean correctos.
 - _**Es una de autoprotección que se aplica durante el proceso de software**_.
 
-### Que hace la GCS?
+### Quién hace la GCS?
 - Todos los involucrados en el proceso de software se relacionan en cierta medida con la gestión del cambio, pero en ocasiones se crean posiciónes de apoyo especializadas para adminstrar el proceso ACS.
 
 ### Elementos de la Gestión de la Configuración del Software (ECS).

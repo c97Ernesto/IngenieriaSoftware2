@@ -136,26 +136,41 @@ Lineamientos de observación:
 ### Partes de un SRS
 1. **INTRODUCCIÓN**
     - Propósito
-    - Alcance
+      - Se define el propósito del documento y se eespecifica a quién va dirigido el documento.
+    - Alcance o ámbito del sistema
+      - Se da un nombre al futuro sistema. Se explica lo que el sistema hará y lo que no hará.
+      - Se describen los beneficios, ojetivos y metas que se espera alcanzar con el futuro sistema.
     - Referencias
+      - Se presentan una lista completa de todas las referencias de los documentos mencionados o utilizados para escribir el SRS.
+      - Identificar cada documento por el título, número de reporte, fecha y publicación. Y las fuentes de las referencias de donde se obtuvieron.
 
 2. **DESCRIPCIÓN GENERAL**  
 Esta sección debe describir los factores generales que afectan el producto y sus requerimientos. No declara los requerimientos específicos.
     - Perspectiva del producto
-    - Funcionalidad del producto
+      - Si el producto es independiente y totalmente autónomo, debe declararse que así es.
+      - Si el SRS define un producto que es un componente de un sistema más grande, entonces se debe relacionar los requerimientos de ese sistema más grande a la funcionalidad del software y debe identificar las interfaces entre ese sistema y el software.
+    - Funcionalidad del producto / sistema.
+      - Se debe presentar un resumen de las funciones del futuro sistema.
+      - Las funciones deberán mostrarse de forma organizada, y pueden utilizarse gráficos, siempre que refleje las relaciones entre funciones y no el diseño del sistema.
     - Características de los usuarios
+      - Se deben describir las características generales de los usuarios intencionales del producto que incluye nivel educativo, experiencia, y la especialización técnica.
     - Evolición previsible del sistema
+      - Se identifican requerimientos que serán implementados en futuras versiones.
 
 3. **REQUISITOS NO FUNCIONALES**  
 Debe contener todos los requerimientos no funcionales del software a un nivel de detalle para permitirles a los diseñadores diseñar el sistema, y a los auditores probar que el sistema satisface esos requerimientos.
-    - Requisitos de rendimiento
+    - Requerimientos de rendimiento
+      - Requerimientos relacionados con la carga que se espera que tenga que soportar el sistema. Por ejemplo, número de terminales, número esperado de usuarios simultaneamente conectados, etc.
+      - Todos los requerimientos deben ser mensurables. Por ejemplo, indicando "el 95% de las transacciones deben realizarse en menos de 1 segundo", en lugar de "los operadores no deben esperar a que se complete la transacción".
     - Seguriddad
+      - Especificación de elementos que protegerán al software de acceso, usos y sabotajes maliciosos, así como de modificaciones o destrucciones maliciosas o accidentales. Los requerimientos pueden especificar: empleo de técnicas criptográficas, registro de ficheros con "logs" de actividad, asignación de determiandas funcionalidades a deterimnados módulos, restricciones de comunicación entre los determinados módulos, comprobaciones de integridad de información crítica.
     - Portabilidad
+      - Especificación de atributos que debe presentar el software para facilitar su traslado a otras plataformas u entornos. Pueden incluirse: porcentaje de componentes dependientes del servidor, porcentaje de código dependiente del servidor, uso de un determinado lenguaje por su portabilidad, uso de un determinado compilador o plataforma de desarrollo, uso de un determinado sistema operativo.
 
 4. **MANTENIMIENTO**  
-Identifiación de tipo de mantenimiento necesario del sistema.  
-Especificaciónde quien debe realizar las tareas de mantenimiento, por ejemplo, usuarios, o un desarrollador.    
-Especificación de cuando deben realizarse las tareas de mantenimiento. Por ejemplo, generación de estadísitcas de acceso semanales y mensuales.
+- Identifiación de tipo de mantenimiento necesario del sistema.  
+- Especificaciónde quien debe realizar las tareas de mantenimiento, por ejemplo, usuarios, o un desarrollador.    
+-   Especificación de cuando deben realizarse las tareas de mantenimiento. Por ejemplo, generación de estadísitcas de acceso semanales y mensuales.
 
 
 5. **APÉNDICE**    
