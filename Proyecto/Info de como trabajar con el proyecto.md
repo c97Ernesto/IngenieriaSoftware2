@@ -77,6 +77,46 @@ Descripción general de cómo se organizarían las carpetas en una arquitectura 
 
 ### Ejemplo
 
+```
+📁 my-nodejs-app
+│
+├── 📁 config
+│   ├── 📄 database.js
+│   └── 📄 environment.js
+│
+├── 📁 controllers
+│   ├── 📄 userController.js
+│   ├── 📄 productController.js
+│   ├── 📄 orderController.js
+│   └── 📄 cartController.js
+│
+├── 📁 middlewares
+│   ├── 📄 authMiddleware.js
+│   └── 📄 errorMiddleware.js
+│
+├── 📁 models
+│   ├── 📄 user.js
+│   ├── 📄 product.js
+│   ├── 📄 order.js
+│   └── 📄 cart.js
+│
+├── 📁 routes
+│   ├── 📄 index.js
+│   ├── 📄 userRoutes.js
+│   ├── 📄 productRoutes.js
+│   ├── 📄 orderRoutes.js
+│   └── 📄 cartRoutes.js
+│
+└── 📁 views
+    ├── 📄 home.ejs
+    ├── 📄 login.ejs
+    ├── 📄 product.ejs
+    ├── 📄 cart.ejs
+    └── 📁 partials
+        ├── 📄 header.ejs
+        └── 📄 footer.ejs
+```
+
 Ejemplo de cómo se podrían organizar las carpetas y archivos para un sistema web de compra y venta de productos, utilizando una arquitectura MVC:
 
 #### Modelos (models): 
